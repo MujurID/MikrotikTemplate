@@ -1,0 +1,121 @@
+body {
+background:#071C06 url("bg.png");background-attachment:fixed;background-size:cover;
+min-width: 300px;
+overflow-x: hidden; 
+    overflow-y: hidden;
+}
+.logo
+{
+width:300px;
+position: relative;top:20px;
+
+}
+.login{
+
+position: relative;
+top:50px; left:-0px;
+font-family:arial;padding:0px 0 0 0}.login 
+
+display:block;border-radius: 0px;margin:0 auto 0px
+}
+.login a,.login a:visited{text-decoration:underline;color:inherit}ul.notice{margin:30px auto;width:300px;text-align:center;list-style-position:inside;font-size:15px;padding:20px 30px;border-radius:3px}ul.notice.errors{background-color:#fff4f4;border:1px solid #262624;color:#f50909}ul.notice.success{background-color:#d7eacd;border:1px solid #6fae4f;color:#6fae4f}ul.notice li{padding:5px 0}.vertical-form{margin:0 auto}.vertical-form legend{width:100%;font-size:24px;font-weight:500;text-align:center;margin:0 0 0px 0}
+.text
+{border-top-left-radius:0px;border-top-right-radius:0px;
+}
+.password
+{border-top-left-radius:0px;border-top-right-radius:0px;
+}
+.vertical-form input[type='text'],.vertical-form input[type='password'],.vertical-form input[type='number']{border:0px #656565 solid;color:#151515;background:#32CE29;opacity: 0.9;
+    filter: alpha(opacity=95);
+height:60px;font-size:18px}.vertical-form input[type='text'],.vertical-form input[type='password'],.vertical-form input[type='submit'],.vertical-form input[type='number']{display:block;margin:0 auto 2px auto;width:300px;text-align:center;color:#071C06;outline:none;font-family:inherit}.vertical-form input[type='submit']{-webkit-appearance:none;position: relative;
+top:-0px; left:0px;color:#fff;background:#071C06;opacity: 1;
+    filter: alpha(opacity=0.4);border:3px #32CE29 solid;border-radius:50%;
+ height:150px;width:150px;font-size:18px;color:#32CE29;font-weight:400;outline:0;letter-spacing:1.5px;cursor:pointer}.vertical-form input:hover[type='submit']{background-color:#32CE29;opacity: 0.9;color:#071C06;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}.vertical-form .footer{text-align:center;color:#666;position: relative;
+top:0px; left:0px;}.vertical-form .footer p:first-child{color:#ccc}.vertical-form .footer a:first-child{color:#00A9E0}.vertical-form .footer p:nth-child(2) a{border-bottom:solid 1px #000} @media (max-width:0px){.login{padding:10px 0 0 0}}
+.trial
+{
+   color: #32CE29 !important;
+   border-collapse: separate;
+-webkit-appearance: none;
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+   background: #071C06;
+        -webkit-border-radius:50%;
+   -moz-border-radius:50%;
+   border-radius:50%;
+   border:2px solid #32CE29;
+   padding:0 0px;
+   margin:0 auto;
+   height:100px;
+width:100px;
+}
+a.trial,
+a.trial:link,
+a:link.trial:link,
+body a.trial:link,
+a.trial:visited,
+body a.trial:visited,
+input.trial,
+button.trial
+{
+   text-decoration: none;
+   font-size: 12px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position:relative;
+   display: inline-block;
+   vertical-align: middle;
+   white-space: nowrap;
+   text-align: center;
+   color: #FFFFFF;
+   margin: 0 !important;
+   overflow: visible;
+   cursor: pointer;
+   text-indent: 0;
+   line-height: 10px;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+}
+.trial.hover, .trial:hover
+{
+	color: #071C06 !important;
+   background: #32CE29; opacity: 0.9;
+   -webkit-border-radius:50%;
+-webkit-transition:all 0.5s ease;
+-moz-transition:all 0.5s ease;
+-o-transition:all 0.5s ease;
+transision:all 0.5s ease;
+   -moz-border-radius:50%;
+   border-radius:50%;
+   border:2px solid #32CE29;
+   padding:0 0px;
+   margin:0 auto;
+}
+h1 {
+    animation-duration: 500ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation:blink 500ms infinite; /* Safari and Chrome */
+}
+@keyframes blink {
+    from {
+        color:green;
+    }
+    to {
+        color:white;
+    }
+}
+@-webkit-keyframes blink {
+    from {
+        color:green;
+    }
+    to {
+        color:white;
+    }
+}
+
+ 
